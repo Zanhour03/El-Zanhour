@@ -112,3 +112,5 @@ font-family: Verdana, sans-serif;
   border: black 3px solid;
   border-width:3px !important;
 }
+
+#more {display: none;}
