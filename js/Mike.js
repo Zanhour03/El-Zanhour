@@ -1,5 +1,6 @@
-$('.carousel').carousel()
 
-$('.carousel').carousel({
-  interval: 2000
-})
+
+$(function(){
+  // Activate Carousel
+  $("#myCarousel").carousel();
+});
