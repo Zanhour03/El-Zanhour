@@ -108,3 +108,7 @@ font-family: Verdana, sans-serif;
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+.border-3 {
+  border: black 3px solid;
+  border-width:3px !important;
+}
