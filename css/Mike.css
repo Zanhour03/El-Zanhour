@@ -286,3 +286,31 @@ font-family: Verdana, sans-serif;
       visibility: hidden;
     }
 }
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 800px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    .carousel {
+      /* any dimensions are fine, it can be responsive with max-width */
+      width: 350px;
+      height: 280px;
+      margin: 6%;
+    }
+    
+    .carousel-inner {
+      /* make sure your .items will get correct height */
+      height: 100%;
+    }
+    
+    .item {
+      background-size: cover;
+      background-position: 50% 50%;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .item img {
+      visibility: hidden;
+    }
+}
