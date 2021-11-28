@@ -20,3 +20,10 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+$(function () {
+  $("#languages").change(function() {
+      var val = $(this).val();
+      var text = $("#languages option:selected").text();
+      $("#selected-language").html(val + '<br>' + text);
+  });
+});
