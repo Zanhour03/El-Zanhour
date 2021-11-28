@@ -6,52 +6,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>El-Zanhour</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/Mike.css">
+        <link rel="stylesheet" href="css/style.css">
       
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="js/Mike.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-xl navbar-dark bg-dark ">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <a href="index.html"> <img src="Img/zanhourlogo.png" alt="" width="100" height="80" class="rounded-circle d-inline-block align-text-top"></a>
-          
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText" style="margin-left: 10%;" >
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link px-4 ml-1" href="index.html">Home </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link px-4 ml-1" href="Butchery.html">Butchery</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link px-4 ml-1" href="#">Menu</a>
-                </li>
-                      
-                <li class="nav-item ">
-                    <a class="nav-link px-4 ml-1" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link px-4 ml-1" href="#">Location</a>
-                  </li>
-                  <li class="nav-item">
-                    <select class="nav-link bg-dark px-4 ml-1 text-light" data-placeholder="lang">
-                        
-                        <option class="text-light  px-4 ml-1" value="EN">English</option>
-                        <option class="text-light nav-link px-4 ml-1" value="AR">Arabic</option>
-                      
-                      </select>
-                  </li>
-              </ul>
-            </div>
-            </div>
-          </nav>
         
+      <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <a href="index.html"> <img src="Img/zanhourlogo.png" alt="" width="100" height="80" class="rounded-circle d-inline-block align-text-top"></a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText" style="margin-left: 10%;" >
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link px-4 ml-1" href="index.html">Home </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link px-4 ml-1" href="Butchery.html">Butchery</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link px-4 ml-1 active" href="#">Menu</a>
+              </li>
+             
+                    
+              <li class="nav-item ">
+                  <a class="nav-link px-4 ml-1" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link px-4 ml-1" href="Location.html">Location</a>
+                </li>
+                <li class="nav-item">
+                  
+                    <div id="google_translate_element"></div>
+                    
+
+                </li>
+
+
+
+
+            </ul>
+          </div>
+          </div>
+        </nav>
+
           <div id="ColdMezza">
            <h4> Cold Mezza</h4>
              <p>Hommos</p>
@@ -87,8 +91,27 @@
 
       
           <br>
+           <script>
+              function googleTranslateElementInit() {
+                  new google.translate.TranslateElement(
+                      {pageLanguage: 'ar',includedLanguages : 'ar,en'},
+                      'google_translate_element'
+                  );
+              }
+          </script>
+          <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <!-- Footer Elements -->
+          
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2021 Copyright:
+              <a href="https://el-zanhour.netlify.app/"> El-Zanhour.netlify.app</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
           <script src="js/Mike.js"></script>
           
